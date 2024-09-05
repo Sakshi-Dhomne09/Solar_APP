@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+
+            <LinearLayout
+                android:id="@+id/klbio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@+id/noysedws"
+                >
+                <com.google.android.material.textfield.TextInputLayout
+
+                    android:id="@+id/nameInputLayout"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter your name"
+                    app:boxStrokeColor="@color/divider"
+                    app:boxStrokeWidth="1dp"
+                    android:layout_marginTop="10dp"
+                    app:errorTextColor="@color/error"
+                    android:textColorHint="@color/secondaryText"
+                    app:boxCornerRadiusBottomEnd="5dp"
+
+                    app:boxCornerRadiusBottomStart="5dp"
+                    app:boxCornerRadiusTopEnd="5dp"
+                    app:boxCornerRadiusTopStart="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    app:errorEnabled="true"
+                    >
+
+                    <com.google.android.material.textfield.TextInputEditText
+
+                        android:id="@+id/register_NameEdittext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:imeOptions="actionNext"
+                        android:inputType="textAutoComplete"
+                        android:digits="abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+
+
+                        android:textColor="@color/primaryText"
+                        android:textSize="14sp" />
+
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+
+                    android:id="@+id/emailInputLayout"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter your email"
+                    app:boxStrokeColor="@color/divider"
+                    app:boxStrokeWidth="1dp"
+                    android:layout_marginTop="10dp"
+                    app:errorTextColor="@color/error"
+                    android:textColorHint="@color/secondaryText"
+                    app:boxCornerRadiusBottomEnd="5dp"
+
+                    app:boxCornerRadiusBottomStart="5dp"
+                    app:boxCornerRadiusTopEnd="5dp"
+                    app:boxCornerRadiusTopStart="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    app:errorEnabled="true"
+
+                    >
+
+                    <com.google.android.material.textfield.TextInputEditText
+
+                        android:id="@+id/register_emailEdittext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:imeOptions="actionNext"
+                        android:inputType="textAutoComplete"
+
+
+                        android:textColor="@color/primaryText"
+                        android:textSize="14sp" />
+
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+
+                    android:id="@+id/addressInputLayout"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter your Address"
+                    app:boxStrokeColor="@color/divider"
+                    app:boxStrokeWidth="1dp"
+                    android:layout_marginTop="10dp"
+                    app:errorTextColor="@color/error"
+                    android:textColorHint="@color/secondaryText"
+                    app:boxCornerRadiusBottomEnd="5dp"
+
+                    app:boxCornerRadiusBottomStart="5dp"
+                    app:boxCornerRadiusTopEnd="5dp"
+                    app:boxCornerRadiusTopStart="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    app:errorEnabled="true"
+
+                    >
+
+                    <com.google.android.material.textfield.TextInputEditText
+
+                        android:id="@+id/register_addressEdittext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:imeOptions="actionNext"
+                        android:inputType="textAutoComplete"
+
+
+                        android:textColor="@color/primaryText"
+                        android:textSize="14sp" />
+
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+
+                    android:id="@+id/phoneNumberInputLayout"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter your phone number"
+                    app:boxStrokeColor="@color/divider"
+                    app:boxStrokeWidth="1dp"
+                    android:layout_marginTop="10dp"
+                    app:errorTextColor="@color/error"
+                    android:textColorHint="@color/secondaryText"
+                    app:boxCornerRadiusBottomEnd="5dp"
+
+                    app:boxCornerRadiusBottomStart="5dp"
+                    app:boxCornerRadiusTopEnd="5dp"
+                    app:boxCornerRadiusTopStart="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    app:errorEnabled="true"
+
+                    >
+
+                    <com.google.android.material.textfield.TextInputEditText
+
+                        android:id="@+id/register_phoneNumberEdittext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:imeOptions="actionNext"
+                        android:inputType="number"
+                        android:maxLength="10"
+
+                        android:textColor="@color/primaryText"
+                        android:textSize="14sp" />
+
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+            </LinearLayout>
+
+
+
+
+            <Button
+                android:id="@+id/register_doneButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/klbio"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/white_button"
+                android:fontFamily="@font/amaranth"
+                android:text="Done"
+                android:textAllCaps="false"
+                android:textColor="#000000" />
+
+
+            <TextView
+                android:id="@+id/noysedws"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/amaranth"
+                android:text="Edit Profile"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <!-- <com.google.android.material.textfield.TextInputLayout
+                 android:id="@+id/til2"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="10dp"
+                 android:layout_marginRight="10dp"
+                 android:layout_marginTop="5dp"
+                 app:hintEnabled="true"
+                 android:textColorHint="#ffffff"
+                 android:textSize="14sp"
+                 android:layout_below="@+id/til" >
+
+                 <jrizani.jrspinner.JRSpinner
+                     android:id="@+id/resgiter_JRSpinner1"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:singleLine="false"
+                     android:hint="Choose Sub Category "
+                     android:textColor="#ffffff"
+                     app:backgroundTint="#ffffff"
+                     app:jrs_icon_tint="#ffffff"
+                     android:textSize="14sp"
+                     app:jrs_multiple="false"
+                     android:fontFamily="@font/amaranth"
+                     app:jrs_title="Choose Item" />
+
+             </com.google.android.material.textfield.TextInputLayout>-->
+
+
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>
+

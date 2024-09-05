@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/outline_black"
+    android:layout_margin="2dp"
+    >
+
+
+    <TextView
+        android:id="@+id/nameTextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/amaranth"
+        android:hint="Name"
+        android:padding="5dp"
+
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/emailtextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameTextview"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="2dp"
+        android:fontFamily="@font/amaranth"
+        android:hint="Email"
+        android:padding="5dp"
+        android:textColor="#000000" />
+
+  <!--  <TextView
+        android:id="@+id/user_item_layout_PasswordTextview"
+        android:layout_below="@+id/user_item_layout_EmailTextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:hint="Password"
+        android:fontFamily="@font/amaranth"
+        android:textColor="#000000"
+        android:padding="5dp"
+        android:layout_marginTop="2dp"
+        />-->
+
+    <TextView
+        android:id="@+id/phoneNumbertextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emailtextview"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="2dp"
+        android:fontFamily="@font/amaranth"
+        android:hint="Phone Number"
+        android:padding="5dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/addressTextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phoneNumbertextview"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="2dp"
+        android:fontFamily="@font/amaranth"
+        android:gravity="center"
+        android:hint="Address"
+        android:padding="5dp"
+        android:textColor="#000000" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:id="@+id/iihih"
+        android:layout_below="@+id/addressTextview"
+
+        >
+        <Button
+            android:id="@+id/aadhar_card_Button"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="10dp"
+            android:layout_margin="2dp"
+
+            android:text="Aadhar card" />
+
+
+        <Button
+            android:id="@+id/electricity_bill_button"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Electricty Bill"
+            android:textSize="10dp"
+            android:layout_margin="2dp"
+
+            />
+
+
+        <Button
+            android:id="@+id/saveunits_Button"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Survey"
+
+            android:textSize="10dp"
+            android:layout_margin="2dp"
+            />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/suggestedTextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iihih"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="5dp"
+
+        android:fontFamily="@font/amaranth"
+        android:hint="Suggested Plant"
+        android:padding="5dp"
+        android:textColor="#000000" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:id="@+id/asas"
+        android:layout_below="@+id/suggestedTextview"
+
+        >
+        <Button
+            android:id="@+id/invoice_button"
+            android:layout_width="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_height="wrap_content"
+            android:textSize="10dp"
+            android:layout_margin="2dp"
+            android:text="Invoice" />
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+</RelativeLayout>

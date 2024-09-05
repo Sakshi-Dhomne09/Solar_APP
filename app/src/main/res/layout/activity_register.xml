@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+
+
+
+
+    <ImageView
+        android:id="@+id/login_first_imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:src="@drawable/app_logo" />
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:orientation="vertical"-->
+
+    <!--        android:id="@+id/login_first_imageview"-->
+    <!--        >-->
+    <!--        <TextView-->
+
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="WELCOME TO"-->
+    <!--            android:layout_alignParentTop="true"-->
+    <!--            android:layout_gravity="center"-->
+
+    <!--            android:layout_centerInParent="true"-->
+
+
+
+
+    <!--            android:gravity="center"-->
+    <!--            android:fontFamily="@font/montserrat_bold"-->
+    <!--            android:textStyle="bold"-->
+    <!--            android:textSize="20sp"-->
+    <!--            android:textAllCaps="true"-->
+
+    <!--            android:textColor="#000"-->
+    <!--            >-->
+    <!--        </TextView>-->
+    <!--        <TextView-->
+
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="EZQ"-->
+    <!--            android:layout_alignParentTop="true"-->
+    <!--            android:layout_gravity="center"-->
+
+    <!--            android:layout_centerInParent="true"-->
+
+
+
+
+    <!--            android:gravity="center"-->
+    <!--            android:fontFamily="@font/sfpro_display_regular"-->
+    <!--            android:textStyle="bold"-->
+    <!--            android:textSize="16sp"-->
+    <!--            android:letterSpacing="1"-->
+    <!--            android:textAllCaps="true"-->
+
+    <!--            android:textColor="#000"-->
+    <!--            >-->
+    <!--        </TextView>-->
+    <!--    </LinearLayout>-->
+
+
+    <!--    <ImageView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="50dp"-->
+    <!--        android:layout_gravity="center"-->
+    <!--        android:layout_alignParentTop="true"-->
+    <!--        android:id="@+id/login_first_imageview"-->
+    <!--        android:src="@drawable/white_app_logo" />-->
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/login_first_imageview"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/rectangle_blue_cure">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+
+            android:layout_marginBottom="15dp"
+
+            android:background="@drawable/rectangle_white"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:overScrollMode="never"
+                android:fillViewport="true"
+                android:scrollbars="none">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clipToPadding="false"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="79dp">
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+
+                        android:fontFamily="@font/montserrat_bold"
+
+
+                        android:gravity="center"
+                        android:text="Register"
+                        android:textAllCaps="true"
+                        android:textColor="#000"
+                        android:textSize="14sp"
+
+                        android:textStyle="bold"></TextView>
+
+                    <com.google.android.material.textfield.TextInputLayout
+
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:hint="@string/first_name"
+                        android:textColorHint="@color/secondaryText"
+                        app:boxCornerRadiusBottomEnd="5dp"
+                        app:boxCornerRadiusBottomStart="5dp"
+                        app:boxCornerRadiusTopEnd="5dp"
+                        app:boxCornerRadiusTopStart="5dp"
+
+
+                        app:boxStrokeColor="@color/divider"
+                        app:boxStrokeWidth="1dp"
+                        app:errorTextColor="@color/error">
+
+                        <com.google.android.material.textfield.TextInputEditText
+
+                            android:id="@+id/register_NameEdittext"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/montserrat"
+                            android:imeOptions="actionNext"
+                            android:inputType="textAutoComplete"
+
+                            android:textColor="@color/primaryText"
+                            android:textSize="14sp" />
+
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:hint="Email"
+                        android:textColorHint="@color/secondaryText"
+                        app:boxCornerRadiusBottomEnd="5dp"
+                        app:boxCornerRadiusBottomStart="5dp"
+                        app:boxCornerRadiusTopEnd="5dp"
+                        app:boxCornerRadiusTopStart="5dp"
+
+                        app:boxStrokeColor="@color/divider"
+                        app:boxStrokeWidth="1dp"
+                        app:errorTextColor="@color/error">
+
+                        <com.google.android.material.textfield.TextInputEditText
+
+                            android:id="@+id/register_emailEdittext"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/montserrat"
+                            android:imeOptions="actionNext"
+
+                            android:inputType="textAutoComplete"
+                            android:textColor="@color/primaryText"
+                            android:textSize="14sp" />
+
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:hint="Address"
+                        android:textColorHint="@color/secondaryText"
+                        app:boxCornerRadiusBottomEnd="5dp"
+                        app:boxCornerRadiusBottomStart="5dp"
+                        app:boxCornerRadiusTopEnd="5dp"
+                        app:boxCornerRadiusTopStart="5dp"
+
+                        app:boxStrokeColor="@color/divider"
+                        app:boxStrokeWidth="1dp"
+                        app:errorTextColor="@color/error">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/register_addressEdittext"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/montserrat"
+                            android:imeOptions="actionNext"
+                            android:inputType="text"
+
+
+                            android:textColor="@color/primaryText"
+                            android:textSize="14sp" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+                    <com.google.android.material.textfield.TextInputLayout
+
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:hint="Phone Number"
+                        android:textColorHint="@color/secondaryText"
+                        app:boxCornerRadiusBottomEnd="5dp"
+                        app:boxCornerRadiusBottomStart="5dp"
+                        app:boxCornerRadiusTopEnd="5dp"
+                        app:boxCornerRadiusTopStart="5dp"
+
+                        app:boxStrokeColor="@color/divider"
+                        app:boxStrokeWidth="1dp"
+                        app:errorTextColor="@color/error">
+
+                        <com.google.android.material.textfield.TextInputEditText
+
+                            android:id="@+id/register_phoneNumberEdittext"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/montserrat"
+                            android:imeOptions="actionNext"
+
+
+                            android:inputType="number"
+                            android:maxLength="10"
+                            android:textColor="@color/primaryText"
+                            android:textSize="14sp" />
+
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/register_doneButton"
+                        android:layout_width="180dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/new_square_button_dark"
+
+                        android:fontFamily="@font/montserrat"
+                        android:gravity="center"
+                        android:text="@string/register"
+                        android:textAllCaps="true"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        app:backgroundTint="@null"
+                        app:cornerRadius="20dp"
+                        app:rippleColor="@color/colorPrimaryRipple"
+
+                        />
+
+
+                </LinearLayout>
+
+            </ScrollView>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>

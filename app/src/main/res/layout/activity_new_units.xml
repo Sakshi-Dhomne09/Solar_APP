@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NewUnitsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Q-1 Available Space on terrace? "
+        android:layout_marginLeft="4dp"
+        android:fontFamily="@font/quicksand_medium"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        />
+
+            <RadioGroup
+                android:id="@+id/radioGroup2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/q2yesbutton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"
+
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/q2nobutton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="80dp"
+                    android:text="No"
+                    android:textSize="20sp" />
+
+
+            </RadioGroup>
+
+<!--    <EditText-->
+<!--        android:id="@+id/ans1_edittext"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Ans"-->
+<!--        android:textColorHint="#000000"-->
+<!--        android:gravity="start"-->
+
+<!--        android:fontFamily="@font/quicksand_medium"-->
+<!--        android:textColor="#000000"-->
+<!--        android:layout_marginTop="2dp"-->
+<!--        android:textSize="20sp"-->
+<!--        />-->
+
+
+            <LinearLayout
+                android:id="@+id/testll"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Q-2 Shadow Free Area Available? "
+        android:layout_marginLeft="4dp"
+        android:fontFamily="@font/quicksand_medium"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        />
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+
+        android:orientation="vertical" >
+
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/q2yesbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/q2nobutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:text="No"
+                android:textSize="20sp" />
+
+
+        </RadioGroup>
+
+
+
+    </RelativeLayout>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Q-3 Terrace Height From Meter? "
+        android:layout_marginLeft="4dp"
+        android:fontFamily="@font/quicksand_medium"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/ans3_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ans"
+        android:textColorHint="#000000"
+        android:gravity="start"
+        android:maxLength="5"
+        android:inputType="number"
+
+        android:fontFamily="@font/quicksand_medium"
+        android:textColor="#000000"
+        android:layout_marginTop="2dp"
+        android:textSize="20sp"
+        android:singleLine="true"
+        />
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+
+        android:layout_below="@+id/post_ll2"
+        >
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="January"
+            android:layout_marginLeft="4dp"
+            android:fontFamily="@font/quicksand_medium"
+            android:textColor="#000000"
+
+            android:textSize="20sp"
+            />
+
+
+        <EditText
+            android:id="@+id/jan_edittext"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="-"
+            android:textColorHint="#000000"
+            android:gravity="start"
+            android:inputType="number"
+            android:maxLines="1"
+            android:maxLength="4"
+
+            android:fontFamily="@font/quicksand_medium"
+            android:textColor="#000000"
+          android:layout_marginTop="2dp"
+        android:textSize="20sp"
+        android:singleLine="true"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+
+        android:layout_below="@+id/post_ll2"
+        >
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="February"
+            android:layout_marginLeft="4dp"
+            android:fontFamily="@font/quicksand_medium"
+            android:textColor="#000000"
+
+            android:textSize="20sp"
+            />
+
+
+        <EditText
+            android:id="@+id/feb_edittext"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="-"
+            android:textColorHint="#000000"
+            android:gravity="start"
+            android:maxLength="4"
+            android:inputType="number"
+            android:maxLines="1"
+            android:fontFamily="@font/quicksand_medium"
+            android:textColor="#000000"
+          android:layout_marginTop="2dp"
+        android:textSize="20sp"
+        android:singleLine="true"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+
+        android:layout_below="@+id/post_ll2"
+        >
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="March"
+            android:layout_marginLeft="4dp"
+            android:fontFamily="@font/quicksand_medium"
+            android:textColor="#000000"
+
+            android:textSize="20sp"
+            />
+
+
+        <EditText
+            android:id="@+id/march_edittext"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="-"
+            android:inputType="number"
+            android:maxLength="4"
+            android:maxLines="1"
+            android:textColorHint="#000000"
+            android:gravity="start"
+
+            android:fontFamily="@font/quicksand_medium"
+            android:textColor="#000000"
+          android:layout_marginTop="2dp"
+        android:textSize="20sp"
+        android:singleLine="true"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+
+        android:layout_below="@+id/post_ll2"
+        >
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="April"
+            android:layout_marginLeft="4dp"
+            android:fontFamily="@font/quicksand_medium"
+            android:textColor="#000000"
+
+            android:textSize="20sp"
+            />
+
+
+        <EditText
+            android:id="@+id/april_edittext"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="-"
+            android:textColorHint="#000000"
+            android:gravity="start"
+            android:maxLength="4"
+            android:inputType="number"
+            android:maxLines="1"
+            android:fontFamily="@font/quicksand_medium"
+            android:textColor="#000000"
+          android:layout_marginTop="2dp"
+        android:textSize="20sp"
+        android:singleLine="true"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+
+        android:layout_below="@+id/post_ll2"
+        >
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="May"
+            android:layout_marginLeft="4dp"
+            android:fontFamily="@font/quicksand_medium"
+            android:textColor="#000000"
+
+            android:textSize="20sp"
+            />
+
+
+        <EditText
+            android:id="@+id/may_edittext"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="-"
+            android:textColorHint="#000000"
+            android:maxLength="4"
+            android:gravity="start"
+            android:inputType="number"
+            android:maxLines="1"
+            android:fontFamily="@font/quicksand_medium"
+            android:textColor="#000000"
+          android:layout_marginTop="2dp"
+        android:textSize="20sp"
+        android:singleLine="true"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+
+        android:layout_below="@+id/post_ll2"
+        >
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="June"
+            android:layout_marginLeft="4dp"
+            android:fontFamily="@font/quicksand_medium"
+            android:textColor="#000000"
+
+            android:textSize="20sp"
+            />
+
+
+        <EditText
+            android:id="@+id/june_edittext"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="-"
+            android:textColorHint="#000000"
+            android:gravity="start"
+            android:inputType="number"
+            android:maxLength="4"
+            android:maxLines="1"
+            android:fontFamily="@font/quicksand_medium"
+            android:textColor="#000000"
+          android:layout_marginTop="2dp"
+        android:textSize="20sp"
+        android:singleLine="true"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+
+        android:layout_below="@+id/post_ll2"
+        >
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="July"
+            android:layout_marginLeft="4dp"
+            android:fontFamily="@font/quicksand_medium"
+            android:textColor="#000000"
+
+            android:textSize="20sp"
+            />
+
+
+        <EditText
+            android:id="@+id/july_edittext"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="-"
+            android:textColorHint="#000000"
+            android:gravity="start"
+            android:inputType="number"
+            android:maxLines="1"
+            android:fontFamily="@font/quicksand_medium"
+            android:maxLength="4"
+            android:textColor="#000000"
+          android:layout_marginTop="2dp"
+        android:textSize="20sp"
+        android:singleLine="true"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+
+        android:layout_below="@+id/post_ll2"
+        >
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="August"
+            android:layout_marginLeft="4dp"
+            android:fontFamily="@font/quicksand_medium"
+            android:textColor="#000000"
+
+            android:textSize="20sp"
+            />
+
+
+        <EditText
+            android:id="@+id/august_edittext"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="-"
+            android:textColorHint="#000000"
+            android:gravity="start"
+            android:inputType="number"
+            android:maxLines="1"
+            android:maxLength="4"
+            android:fontFamily="@font/quicksand_medium"
+            android:textColor="#000000"
+          android:layout_marginTop="2dp"
+        android:textSize="20sp"
+        android:singleLine="true"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+
+        android:layout_below="@+id/post_ll2"
+        >
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="September"
+            android:layout_marginLeft="4dp"
+            android:fontFamily="@font/quicksand_medium"
+            android:textColor="#000000"
+
+            android:textSize="20sp"
+            />
+
+
+        <EditText
+            android:id="@+id/sept_edittext"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="-"
+            android:textColorHint="#000000"
+            android:gravity="start"
+            android:maxLength="4"
+            android:inputType="number"
+            android:maxLines="1"
+            android:fontFamily="@font/quicksand_medium"
+            android:textColor="#000000"
+          android:layout_marginTop="2dp"
+        android:textSize="20sp"
+        android:singleLine="true"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+
+        android:layout_below="@+id/post_ll2"
+        >
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="October"
+            android:layout_marginLeft="4dp"
+            android:fontFamily="@font/quicksand_medium"
+            android:textColor="#000000"
+
+            android:textSize="20sp"
+            />
+
+
+        <EditText
+            android:id="@+id/oct_edittext"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="-"
+            android:textColorHint="#000000"
+            android:gravity="start"
+            android:maxLength="4"
+            android:inputType="number"
+            android:maxLines="1"
+            android:fontFamily="@font/quicksand_medium"
+            android:textColor="#000000"
+          android:layout_marginTop="2dp"
+        android:textSize="20sp"
+        android:singleLine="true"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+
+        android:layout_below="@+id/post_ll2"
+        >
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="November"
+            android:layout_marginLeft="4dp"
+            android:fontFamily="@font/quicksand_medium"
+            android:textColor="#000000"
+
+            android:textSize="20sp"
+            />
+
+
+        <EditText
+            android:id="@+id/nov_edittext"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="-"
+            android:textColorHint="#000000"
+            android:gravity="start"
+            android:inputType="number"
+            android:maxLines="1"
+            android:fontFamily="@font/quicksand_medium"
+            android:textColor="#000000"
+            android:maxLength="4"
+          android:layout_marginTop="2dp"
+        android:textSize="20sp"
+        android:singleLine="true"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+
+        android:layout_below="@+id/post_ll2"
+        >
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="December"
+            android:layout_marginLeft="4dp"
+            android:fontFamily="@font/quicksand_medium"
+            android:textColor="#000000"
+
+            android:textSize="20sp"
+            />
+
+
+        <EditText
+            android:id="@+id/dec_edittext"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:maxLength="4"
+            android:layout_height="wrap_content"
+            android:hint="-"
+            android:textColorHint="#000000"
+            android:gravity="start"
+            android:inputType="number"
+            android:maxLines="1"
+            android:fontFamily="@font/quicksand_medium"
+            android:textColor="#000000"
+          android:layout_marginTop="2dp"
+        android:textSize="20sp"
+        android:singleLine="true"
+            />
+
+    </LinearLayout>
+            </LinearLayout>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnLogin"
+        android:layout_width="180dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="40dp"
+        android:text="Done"
+        android:textColor="@color/white"
+        android:textAllCaps="true"
+        android:textSize="14sp"
+        app:rippleColor="@color/colorPrimaryRipple"
+        app:cornerRadius="20dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

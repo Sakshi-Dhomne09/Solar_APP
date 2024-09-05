@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+ 
+        <TextView
+            android:id="@+id/driverrequest_item_drivername_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:hint="User Name"
+            android:maxLines="2"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:fontFamily="@font/amaranth"
+            android:textColor="@color/black"
+            />
+
+    <Button
+        android:id="@+id/driverrequest_item_declineButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/driverrequest_item_drivername_textview"
+        android:text="Decline"
+        android:layout_marginLeft="20dp"
+
+
+        >
+
+    </Button>
+
+
+
+    <Button
+        android:id="@+id/driverrequest_item_acceptButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/driverrequest_item_drivername_textview"
+        android:text="Accept"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+
+
+        >
+
+    </Button>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        >
+
+    </RelativeLayout>
+</RelativeLayout>

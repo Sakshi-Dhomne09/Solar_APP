@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_gradient" >
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/topbar"
+        android:layout_marginTop="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            >
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                >
+
+                <ImageView
+                    android:id="@+id/pihoiv"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/facebook"></ImageView>
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/whatsapp"
+                    android:layout_toRightOf="@+id/pihoiv"
+                    android:layout_marginLeft="20dp"
+                    >
+                </ImageView>
+            </RelativeLayout>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Technoveent Research and Development"
+                android:layout_gravity="center"
+
+                android:textSize="20dp"
+                android:fontFamily="@font/montserrat"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                >
+            </TextView>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="46dp"
+                android:text="Contact Details :"
+                android:textSize="16dp"
+                android:fontFamily="@font/montserrat"
+                android:gravity="left"
+                android:textColor="#673AB7"
+                android:textStyle="bold"
+                >
+            </TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+
+                    android:text="HeadOffice:"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/montserrat"
+                    android:gravity="left"
+                    android:textColor="#ffffff"
+                    >
+                </TextView>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+
+                    android:text="Akola"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/montserrat"
+                    android:gravity="left"
+                    android:textColor="#ffffff"
+                    >
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+
+                    android:text="Branch:"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/montserrat"
+                    android:gravity="left"
+                    android:textColor="#ffffff"
+                    >
+                </TextView>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+
+                    android:text="Amravati, Akola"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/montserrat"
+                    android:gravity="left"
+                    android:textColor="#ffffff"
+                    >
+                </TextView>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="30dp"
+                    android:src="@drawable/fui_ic_phone_white_24dp">
+
+                </ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="40dp"
+                    android:fontFamily="@font/montserrat"
+                    android:gravity="left"
+                    android:text="+91 79720 65683"
+                    android:textColor="#ffffff"
+                    android:textSize="14dp"
+                    android:textStyle="bold"></TextView>
+
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="30dp"
+                    android:src="@drawable/fui_ic_mail_white_24dp">
+
+                </ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="40dp"
+                    android:fontFamily="@font/montserrat"
+                    android:gravity="left"
+                    android:text="technovaeent@gmail..com"
+                    android:textColor="#ffffff"
+                    android:textSize="14dp"
+                    android:textStyle="bold"></TextView>
+
+
+
+                <ImageView
+                    android:id="@+id/sncdbjb"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/app_logo"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/sncdbjb"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/ibmplex"
+                    android:gravity="center"
+                    android:text="© 2022 Technoveent Research and Development. All rights Reserved."
+                    android:textColor="#ffffff" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Estd. 2016"
+                    android:layout_gravity="center"
+
+                    android:layout_alignParentBottom="true"
+                    android:textSize="16dp"
+                    android:fontFamily="@font/montserrat"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"
+                    >
+                </TextView>
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@drawable/background_gradient"
+ >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Otp"
+            android:id="@+id/sdlkbroiud"
+            android:layout_centerInParent="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            >
+
+        </TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sdlkbroiud"
+            android:hint="Enter otp"
+            android:id="@+id/customdialogoptview_otpEdittext"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/outline_white"
+            android:fontFamily="@font/amaranth"
+            android:padding="10dp"
+            android:maxLines="1"
+            android:maxLength="10"
+            android:layout_marginTop="10dp"
+            >
+
+        </EditText>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/customdialogoptview_otpEdittext"
+            android:text="Cancel"
+            android:id="@+id/customdialogoptview_cancelButton"
+            android:background="@drawable/white_button"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            >
+
+        </Button>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/customdialogoptview_otpEdittext"
+            android:text="Ok"
+            android:id="@+id/customdialogoptview_okButton"
+            android:background="@drawable/white_button"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            >
+        </Button>
+
+    </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>

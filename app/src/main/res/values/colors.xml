@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="colorPrimary">#79C1C1</color>
+    <color name="colorPrimaryDark">#79C1C1</color>
+    <color name="colorAccent">#79C1C1</color>
+
+    <color name="colorGray">#ccc</color>
+    <color name="blue">#5BD2D4</color>
+    <color name="black">#000000</color>
+
+    <color name="white">#ffffff</color>
+    <color name="red">#FF0000</color>
+
+
+
+    <color name="purple_200">#0E387E</color>
+    <color name="purple_500">#0E387E</color>
+    <color name="purple_700">#0E387E</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+
+    <color name="logo_bg_color">#0E387E</color>
+    <color name="link_color">#316AF2</color>
+    <color name="grey">#C6C6C6</color>
+
+    <color name="light_silver">#c2c4ca</color>
+
+    <color name="divider">#e6e6e6</color>
+    <color name="appBg">#fafafa</color>
+    <color name="delete">#f75254</color>
+    <color name="error">#e57373</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorGrey">#CECECE</color>
+    <color name="colorGrey1">#888888</color>
+    <color name="colorGrey2">#5A5A5A</color>
+    <color name="colorBalck">#1d2021</color>
+    <color name="colorRad">#d71c32</color>
+    <color name="colorTranfar">#7FFBFAFA</color>
+    <color name="colorPrimaryRipple">#421B6EF6</color>
+    <color name="secondaryText">#616161</color>
+    <color name="primaryText">#212121</color>
+    <color name="new_meeting">#FF9800</color>  <!--ff5722-->
+
+
+    <!--     New App Color-->
+    <color name="new_color_dark">#2a2a72</color>
+    <color name="new_color_faint">#6C6CBA</color>
+    <color name="txt_color">#333333</color>
+
+    <color name="periwinkle">#d3d7fe</color>
+    <color name="lightSkin">#feeed5</color>
+
+    <color name="skinColor">#feccb5</color>
+    <color name="midnightBlue">#4f3c74</color>
+    <color name="palePink">#fae4e6</color>
+    <color name="prussianBlue">#03132f</color>
+
+
+
+    <color name="text_color">#05011A</color>
+    <color name="main_color">#000</color>
+    <color name="rating">#FF929E</color>
+    <color name="payment">#2f2f39</color>
+
+
+    <color name="mtrl_textinput_default_box_stroke_color" tools:override="true">@color/divider</color>
+
+
+
+    <color name="txt_black">#000000</color>
+    <color name="smoke_gray">#a2a2a2</color>
+    <color name="green">#2ac17e</color>
+    <color name="transparent">#00000000</color>
+    <color name="light_gray">#f4f4f4</color>
+    <color name="dark_gray">#757575</color>
+    <color name="subtxt_gray">#9fa3a8</color>
+    <color name="serch_gray">#9f9f9f</color>
+    <color name="dark_green">#50a141</color>
+    <color name="light_black">#272727</color>
+    <color name="bg_color">#f2f3f4</color>
+
+
+
+
+
+    <color name="sub_txt">#8f909e</color>
+    <color name="active_color">#ffb969</color>
+    <color name="inactive_color">#ffdeb8</color>
+    <color name="walkthrough_txt">#5a5b65</color>
+    <color name="sky_blue">#80bbfd</color>
+    <color name="view_line">#e2e2e2</color>
+    <color name="tab_select_txt">#6786ff</color>
+    <color name="tab_unselect_txt">#8f909e</color>
+    <color name="tab_txt_color">#797a7b</color>
+    <color name="actionbar_color">#141415</color>
+
+
+    <color name="gray">#717273</color>
+    <color name="inactive">#8f909e</color>
+</resources>

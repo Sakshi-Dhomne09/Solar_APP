@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/new_color_dark"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    android:overScrollMode="never"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectangle_gradient_button"
+            android:orientation="vertical">
+
+            <com.makeramen.roundedimageview.RoundedImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/img_profile"
+                android:layout_width="87dp"
+                android:layout_height="87dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="26dp"
+                android:scaleType="fitXY"
+
+                android:src="@drawable/user"
+                app:riv_border_color="#00000000"
+                app:riv_border_width="0dip"
+                app:riv_corner_radius="20dp"
+                app:riv_mutate_background="true"
+                app:riv_oval="false"
+                app:riv_tile_mode="clamp" />
+
+            <TextView
+                android:id="@+id/username_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="21dp"
+                android:fontFamily="@font/sf_pro_display_bold"
+                android:hint="Username"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/email_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="12dp"
+                android:fontFamily="@font/sf_pro_display_semibold"
+                android:hint="Email"
+                android:textColor="#fff"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="11dp"
+                android:background="@drawable/rectangle_profile_gray"
+                android:orientation="horizontal"
+                android:paddingLeft="14.4dp"
+                android:paddingTop="8.5dp"
+                android:paddingRight="11dp"
+                android:paddingBottom="7.5dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_profile_gray" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6.4dp"
+                    android:fontFamily="@font/sf_pro_display_semibold"
+                    android:text="+91 xxxxxxxxxx"
+                    android:textColor="@color/txt_black"
+                    android:textSize="13sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/rectangle_white_top_cure"
+            android:clipToPadding="false"
+            android:elevation="8dp"
+            android:layout_marginTop="-40dp"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingBottom="50dp"
+            android:paddingRight="16dp">
+
+            <LinearLayout
+                android:id="@+id/profile_editll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:background="@drawable/rectangle_gray_boxprofile"
+                android:orientation="horizontal"
+                android:paddingLeft="12dp"
+                android:paddingTop="9dp"
+                android:paddingRight="19.3dp"
+                android:paddingBottom="9dp">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="14dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/sf_pro_display_semibold"
+                    android:text="@string/profile_edit"
+                    android:textColor="@color/txt_black"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:rotation="180"
+                    android:src="@drawable/ic_back"
+                    app:tint="@color/light_silver" />
+            </LinearLayout>
+
+           <!-- <LinearLayout
+                android:id="@+id/my_boookingsll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rectangle_gray_boxprofile"
+                android:orientation="horizontal"
+                android:paddingLeft="12dp"
+                android:paddingTop="9dp"
+                android:paddingRight="19.3dp"
+                android:paddingBottom="9dp">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="14dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/sf_pro_display_semibold"
+                    android:text="Projects"
+                    android:textColor="@color/txt_black"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:rotation="180"
+                    android:src="@drawable/ic_back"
+                    app:tint="@color/light_silver" />
+            </LinearLayout>-->
+
+            <!--      <LinearLayout
+                      android:id="@+id/coupons_ll"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="15dp"
+                      android:background="@drawable/rectangle_gray_boxprofile"
+                      android:orientation="horizontal"
+                      android:paddingLeft="12dp"
+                      android:paddingTop="9dp"
+                      android:paddingRight="19.3dp"
+                      android:paddingBottom="9dp">
+
+
+                      <ImageView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_gravity="center"
+                          android:src="@drawable/ic_icon_coupon" />
+
+                      <TextView
+                          android:layout_width="0dp"
+                          android:layout_height="wrap_content"
+                          android:layout_gravity="center"
+                          android:layout_marginLeft="14dp"
+                          android:layout_weight="1"
+                          android:fontFamily="@font/sf_pro_display_semibold"
+                          android:text="@string/coupons"
+                          android:textColor="@color/txt_black"
+                          android:textSize="16sp" />
+
+                      <ImageView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_gravity="center"
+                          android:rotation="180"
+                          android:src="@drawable/ic_back"
+                          app:tint="@color/light_silver" />
+                  </LinearLayout>-->
+
+        <!--    <LinearLayout
+                android:id="@+id/manageaddress_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rectangle_gray_boxprofile"
+                android:orientation="horizontal"
+                android:paddingLeft="12dp"
+                android:paddingTop="9dp"
+                android:paddingRight="19.3dp"
+                android:paddingBottom="9dp">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="14dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/sf_pro_display_semibold"
+                    android:text="Feedback"
+                    android:textColor="@color/txt_black"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:rotation="180"
+                    android:src="@drawable/ic_back"
+                    app:tint="@color/light_silver" />
+            </LinearLayout>-->
+
+
+            <LinearLayout
+                android:id="@+id/aboutus_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rectangle_gray_boxprofile"
+                android:orientation="horizontal"
+                android:paddingLeft="12dp"
+                android:paddingTop="9dp"
+                android:paddingRight="19.3dp"
+                android:paddingBottom="9dp">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="14dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/sf_pro_display_semibold"
+                    android:text="About Us"
+                    android:textColor="@color/txt_black"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:rotation="180"
+                    android:src="@drawable/ic_back"
+                    app:tint="@color/light_silver" />
+            </LinearLayout>
+
+
+            <!-- <LinearLayout
+                 android:id="@+id/settings_ll"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="15dp"
+                 android:background="@drawable/rectangle_gray_boxprofile"
+                 android:orientation="horizontal"
+                 android:paddingLeft="12dp"
+                 android:paddingTop="9dp"
+                 android:paddingRight="19.3dp"
+                 android:paddingBottom="9dp">
+
+                 <ImageView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="center"
+                     android:src="@drawable/ic_icon_setting" />
+
+                 <TextView
+                     android:layout_width="0dp"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="center"
+                     android:layout_marginLeft="14dp"
+                     android:layout_weight="1"
+                     android:fontFamily="@font/sf_pro_display_semibold"
+                     android:text="@string/setting"
+                     android:textColor="@color/txt_black"
+                     android:textSize="16sp" />
+
+                 <ImageView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="center"
+                     android:rotation="180"
+                     android:src="@drawable/ic_back"
+                     app:tint="@color/light_silver" />
+             </LinearLayout>-->
+
+            <Button
+                android:id="@+id/logoutButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="94dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="94dp"
+                app:backgroundTint="@null"
+                android:background="@drawable/rectangle_gradient_button"
+                android:fontFamily="@font/sf_pro_display_semibold"
+                android:text="@string/logout"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

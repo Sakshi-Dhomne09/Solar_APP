@@ -1,0 +1,147 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/top_rounded_corners"
+    android:layout_below="@+id/ihoioi"
+    android:padding="10dp"
+    android:id="@+id/container"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    >
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".AboutUsActivity"
+        android:orientation="vertical"
+        android:fillViewport="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="10dp"
+                >
+                <ss.com.bannerslider.Slider
+                    android:id="@+id/genral_visit_imageslider"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+
+                    />
+            </RelativeLayout>
+
+
+            <Button
+                android:id="@+id/addnew_customerButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+
+                app:backgroundTint="@null"
+                android:fontFamily="@font/sf_pro_display_semibold"
+                android:text="Add new customer"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+
+            <Button
+                android:id="@+id/cust_profButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="10dp"
+                app:backgroundTint="@null"
+                android:fontFamily="@font/sf_pro_display_semibold"
+                android:text="Customer Profiles"
+                android:textColor="@color/black"
+                android:background="@drawable/new_square_button_dark"
+
+                android:textSize="16sp" />
+
+            <Button
+                        android:id="@+id/cust_empProfileButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                app:backgroundTint="@null"
+                android:fontFamily="@font/sf_pro_display_semibold"
+                android:text="Employee Profile"
+                android:layout_marginTop="10dp"
+
+                android:textColor="@color/black"
+                android:background="@drawable/new_yellow_square_button"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/cust_empRequestsButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:backgroundTint="@null"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/sf_pro_display_semibold"
+                android:text="Employee Requests"
+
+                android:textColor="@color/black"
+                android:background="@drawable/new_square_button_dark"
+                android:textSize="16sp" />
+
+
+            <Button
+                android:id="@+id/cust_shareLocButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+
+                app:backgroundTint="@null"
+                android:fontFamily="@font/sf_pro_display_semibold"
+                android:text="Capture Image"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+
+
+
+
+            <TextView
+                android:id="@+id/marqueeText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="Welcome to Technoveent Research &amp; development "
+                android:textSize="16sp"
+                android:textColor="#000"
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:padding="4dp"
+                android:fontFamily="@font/amaranth"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                />
+
+
+
+
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+
+
+
+
+</LinearLayout>
+
