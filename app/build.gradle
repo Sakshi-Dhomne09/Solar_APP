@@ -1,0 +1,96 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+}
+
+android {
+    compileSdk 30
+    buildToolsVersion "30.0.3"
+
+    defaultConfig {
+        applicationId "com.solarapp1"
+        minSdk 22
+        targetSdk 30
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    configurations.all {
+        resolutionStrategy { force 'androidx.core:core-ktx:1.6.0' }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.3.0'
+
+
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.2'
+    implementation 'com.google.android.material:material:1.3.0'
+    //Custom dependencies
+    implementation 'com.makeramen:roundedimageview:2.3.0'
+    implementation 'com.robinhood.ticker:ticker:2.0.2'
+    implementation 'com.jsibbold:zoomage:1.3.1'
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    implementation 'org.solovyev.android.views:linear-layout-manager:0.5@aar'
+    implementation 'com.github.MasayukiSuda:BubbleLayout:v1.2.1'
+    implementation 'com.yarolegovich:discrete-scrollview:1.5.1'
+    implementation 'com.wajahatkarim3.EasyMoney-Widgets:EasyMoney-Widgets:1.0.0'
+    implementation 'com.github.jrizani:JRSpinner:1.1.2'
+    implementation 'com.github.umairayub79:MaDialog:1.3'
+    implementation 'com.github.ittianyu:BottomNavigationViewEx:2.0.4'
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.21'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-scalars:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'com.ss.bannerslider:bannerslider:2.0.0'
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
+    implementation 'com.facebook.fresco:fresco:2.6.0'
+    implementation 'com.github.d-max:spots-dialog:0.7@aar'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'com.github.esafirm.android-image-picker:imagepicker:2.0.0'
+    implementation 'com.github.esafirm.android-image-picker:rximagepicker:2.0.0'
+    implementation 'com.github.nikartm:image-support:1.0.5'
+    implementation('com.razorpay:checkout:1.5.15')
+    implementation 'in.balakrishnan.easycam:easycam:0.0.3-rc5'
+
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0-rc03'
+    //Database Dependencies
+
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.google.android.gms:play-services-location:17.0.0'
+    //Firebase Lib
+    implementation 'com.yarolegovich:discrete-scrollview:1.5.1'
+    implementation 'com.firebaseui:firebase-ui-database:5.0.0'
+    implementation 'com.firebaseui:firebase-ui-storage:5.0.0'
+    implementation 'com.firebaseui:firebase-ui-auth:5.0.0'
+    implementation 'com.google.firebase:firebase-database:16.0.4'
+    implementation 'com.google.firebase:firebase-messaging:20.0.0'
+    implementation 'com.google.firebase:firebase-auth:16.0.5'
+    implementation 'com.google.firebase:firebase-storage:16.0.4'
+    implementation 'com.google.firebase:firebase-core:16.0.9'
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support.constraint:constraint-layout:2.0.4'
+
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test:runner:1.4.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    implementation "androidx.core:core-ktx:1.7.0"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.32"
+    implementation 'com.google.android.gms:play-services-location:18.0.0'
+}

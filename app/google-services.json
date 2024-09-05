@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "177485639233",
+    "firebase_url": "https://collegeproject-87786-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "collegeproject-87786",
+    "storage_bucket": "collegeproject-87786.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:177485639233:android:64657b40c30425c311e0c0",
+        "android_client_info": {
+          "package_name": "com.solarapp1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "177485639233-2n79igv856m2cvui8h08ub3hcuc6i467.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.solarapp1",
+            "certificate_hash": "340470b8899be86866d7be3efaad59c21ad2e01d"
+          }
+        },
+        {
+          "client_id": "177485639233-tragbp1lsst2o10vqdd7r3p0it1dcd2o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.solarapp1",
+            "certificate_hash": "b0bf2c642eb8c9d6b4dea64212a0d3bd2d54ccf3"
+          }
+        },
+        {
+          "client_id": "177485639233-s79t2p3mllhk77v3ekpufrvg4gc45lqf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2WV5MvP0aWyeWJ1hpn28nZzSRKyVFWpQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "177485639233-s79t2p3mllhk77v3ekpufrvg4gc45lqf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
